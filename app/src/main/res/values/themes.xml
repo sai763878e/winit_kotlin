@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WinIT_Kotlin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/colormy_primary</item>
+         <item name="colorPrimaryVariant">@color/colormy_primary</item>
+        <item name="android:statusBarColor">@color/colormy_primary</item>
+    </style>
+
+    <style name="Theme.WinIT_Kotlin" parent="Base.Theme.WinIT_Kotlin" />
+</resources>

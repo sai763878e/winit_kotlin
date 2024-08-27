@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="colormy_primary">#000000</color>
+    <color name="app_color">#000000</color>
+    <color name="search_backgroung">#B9C0F6</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="text_color">#FF000000</color>
+    <color name="hint_color">#999999</color>
+    <color name="edittext_background">#FFFFFF</color>
+    <color name="button_background">#6200EE</color>
+
+    <color name="background_tab_pressed">#CCCCCC</color>
+    <color name="unselected_tab">#8A8A8A</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="status_view">#50000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="red_normal">#ff000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="yellow_bg">#FFEA8F</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_trans_gray">#20808080</color>
+    <color name="payment_check_color">#C3E295</color>
+    <color name="black_header">#3d5167</color>
+    <color name="very_light_gray">#BCBCBC</color>
+    <color name="green_dark">#008711</color>
+    <color name="alserr_line_yellow">#ffda17</color>
+    <color name="alserr_line_green">#339e40</color>
+    <!-- Normal colors -->
+    <color name="bg_delete_button">#7F7F7F</color> <!-- gray -->
+    <color name="base_bg_color">#E9E9E9</color> <!-- light gray -->
+    <color name="color_dark">#2e2e2e</color> <!-- black gray -->
+    <color name="text_highlighted">#ec1f26</color> <!-- red(#E00024) , (blue #0871BA) -->
+    <color name="text_highlightednew">#3ac3a9</color> <!-- red(#E00024) , (blue #0871BA) -->
+    <color name="text_highlighted_1">#00568B</color> <!-- blue -->
+    <color name="text_color_dark">#3d5166</color> <!-- dark black Gray -->
+    <color name="text_color_normal">#616161</color> <!-- dark gray -->
+    <color name="text_color_light">#808080</color> <!-- gray -->
+    <color name="text_color_universal">#323841</color> <!-- gray -->
+    <color name="list_title">#ffda17</color> <!-- yellow -->
+    <color name="sep_line">#7F7F7F</color> <!-- gray -->
+    <color name="customer_served">#669900</color> <!-- dark green -->
+    <color name="coverage_percentage">#99c796</color> <!-- dark green -->
+    <color name="productive_calls">#e7c740</color> <!-- dark green -->
+    <color name="pending_visit">#ffb001</color> <!-- dark green -->
+    <color name="zero_sales_outlet">#6599ff</color>
+    <color name="yellow">#fdb823</color><!-- dark green -->
+
+    <color name="red_dark11">#E98BA7</color>
+    <!-- <color name="dark_menu">#1C1C1C</color> -->
+    <color name="status_delievered">#669900</color>
+    <color name="status_pending">#ff0000</color>
+    <color name="alserr_line_1">#E00024</color>
+    <color name="alserr_line_2">#888888</color>
+    <color name="color_hilited">#000000</color>
+    <color name="green">#87cd73</color>
+    <color name="greennewcolor">#36b357</color>
+    <color name="pay_sum_list_item_bar_bg">#FFEA8F</color>
+    <color name="bar_color">#3F3F3F</color>
+    <color name="customer_list_item_time_color">#0871BA</color> <!-- red #E00024 , blue #0871BA -->
+
+
+    <color name="new_black">#b2b2b2</color>
+    <color name="new_black_pro">#D6D6D6</color>
+
+
+    <color name="black_l">#2a2828</color>
+    <color name="whitenew">#a8adfe</color>
+    <color name="red_dark">#D32809</color>
+    <color name="textcolour">#3d5167</color>
+    <color name="textcolour_lite">#737e88</color>
+
+    <color name="bg_lite">#F1F1F3</color>
+    <!--vimal singh 24-09-19-->
+    <!--<color name="bg_blue">#055f3b</color>-->
+    <color name="bg_blue">#1c52a2</color>
+    <!--     <color name="bg_blue">#009be8</color> -->
+
+    <!-- Need to check colors -->
+    <color name="gray_bg">#f2f2f2</color>
+    <color name="gray_dark">#4B4A45</color>
+    <color name="gray_dark_new">#e6e5e9</color>
+    <color name="gray_light">#808080</color>
+    <color name="gray_form_line">#EBEBEB</color>
+    <color name="blue_jp">#00568B</color>
+    <color name="storecheck_oos">#E00024</color>
+    <color name="storecheck_partial">#B6D2DC</color>
+    <color name="storecheck_available">#01DF3A</color>
+    <color name="bg_list_item_light">#F9F7FA</color>
+    <color name="header_bg_color">#F4F4F4</color>
+    <color name="greenText">#005dab</color>
+    <color name="bottom_bar_text_h">#0dc475</color><!-- 429EFF    034128 -->
+    <color name="bg_order_bottom">#6F6C5F</color>
+    <color name="dark_menu">#1C1C1C</color>
+    <color name="bg_gray">#DEE0DF</color>
+    <color name="bg_gray_light">#F9F7FA</color>
+    <color name="bg_blue_cust">#009cdb</color>
+    <color name="bg_blue_thick_new">#00AAEE</color>
+    <color name="green_bar">#F21A01</color>
+
+    <color name="colour_msl">#4bab4f</color>
+    <color name="colour_dive_assortment">#ff4245</color>
+    <color name="colour_on_demand">#1b69b6</color>
+    <color name="red_color">#8B1D28</color>
+    <color name="light_gray">#EAEAEA</color>
+    <color name="label_color">#6B6B6B</color>
+    <color name="top_light_grey">#EAEAEA</color>
+    <color name="light_black">#D6D6D6</color>
+
+    <color name="light_title">#666666</color>
+    <color name="gray_light_light">#CECACA</color>
+    <color name="red">#19298b</color>
+    <color name="red_new">#ED1B24</color>
+    <color name="color_highlited">#000000</color>
+    <color name="color_highlited_new">#44484a</color>
+    <color name="color_highlited_new_2">#2663aa</color>
+
+    <color name="layout_background">#ebebeb</color>
+    <color name="background_white">#E8E8F3</color>
+
+    <color name="acheived">#2f51aa</color>
+    <color name="shortfall">#e55c49</color>
+    <color name="projected">#008b21</color>
+    <color name="app_primary_color">#014fa1</color>
+    <color name="text_color_gray">#3d5167</color>
+    <!--<color name="purple">#BA55D3</color>-->
+    <color name="purple">#ff802c</color>
+    <color name="light_orange">#1c52a2</color>
+    <color name="darkpurple">#850b7f</color>
+    <color name="cov_red">#ff6961</color> <!-- red(#E00024) , (blue #0871BA) -->
+
+    <!--Mukesh-->
+    <color name="header_color">#3d5167</color>
+    <color name="text_color_header">#3d5166</color>
+    <color name="text_color_header_normal">#75818e</color>
+    <color name="toolbar_red">#f13c43</color>
+
+    <color name="purple_new">#AF8BFF</color>
+    <color name="orange_new">#FF8D34</color>
+    <color name="sea_green_new">#009688</color>
+    <color name="green_new">#8BC34A</color>
+
+
+
+    <color name="top_heading">#383947</color>
+    <color name="sub_heading">#4f4f4f</color>
+    <color name="heading">#464646</color>
+    <color name="store_name">#575757</color>
+    <color name="question">#312b2b</color>
+    <color name="orange">#ff7700 </color>
+    <color name="msl_green">#d0eed9</color>
+    <color name="msl_red">#f6d6d6</color>
+
+    <color name="pss_footer_green">#35aa29</color>
+    <color name="pss_footer_red">#b23b27</color>
+    <color name="gray_new">#EDEDED</color>
+</resources>

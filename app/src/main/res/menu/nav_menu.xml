@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_journey"
+            android:title="@string/journey_plan"
+            android:icon="@drawable/baseline_calendar_today_24" />
+        <item
+            android:id="@+id/nav_nextday_journey_plan"
+            android:title="@string/nextday_journey_plan"
+            android:icon="@drawable/baseline_calendar_month_24"/>
+        <item
+            android:id="@+id/nav_mycustomer"
+            android:title="@string/mycustomer"
+            android:icon="@drawable/baseline_person_24"/>
+
+        <item
+            android:id="@+id/nav_blockedcust"
+            android:title="@string/Blocked_Customer"
+            android:icon="@drawable/baseline_person_24"/>
+        <item
+            android:id="@+id/nav_load_management"
+            android:title="@string/load_management"
+            android:icon="@drawable/baseline_weekend_24">
+            <menu>
+                <item
+                    android:id="@+id/nav_load_sub_item1"
+                    android:title="@string/Van_Stock" />
+                <item
+                    android:id="@+id/nav_load_sub_item2"
+                    android:title="@string/Unload" />
+                <item
+                    android:id="@+id/nav_load_sub_item3"
+                    android:title="@string/Damage_Goods" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+
+            <item
+                android:title="@string/log_out"
+                android:icon="@drawable/baseline_logout_24"
+                android:id="@+id/nav_logout"/>
+        </menu>
+    </item>
+
+</menu>

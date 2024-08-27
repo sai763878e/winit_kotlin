@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.CheckinOptionFragment">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/size8"-->
+<!--        android:elevation="@dimen/size8"-->
+<!--        android:outlineSpotShadowColor="@color/colormy_primary"-->
+<!--        app:cardCornerRadius="@dimen/size10"-->
+<!--        app:cardBackgroundColor="@color/colormy_primary">-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCheckin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_backgraoud"
+            android:text="@string/Checkout"
+            android:layout_margin="@dimen/size8"
+            style="@style/Btn_header"
+            android:elevation="@dimen/size8"
+            android:textColor="@color/white"/>
+<!--    </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>

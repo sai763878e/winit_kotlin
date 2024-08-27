@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="horizontal"
+    android:paddingBottom="7dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip"
+    android:paddingTop="7dip" >
+
+    <ImageView
+        android:id="@+id/ivImageDialog"
+        android:layout_width="@dimen/size30"
+        android:layout_height="@dimen/size30"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/size10"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/empty_photo"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvSelectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_size_16"
+        android:paddingTop="@dimen/margin_5"
+        android:paddingBottom="@dimen/margin_5"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_dark" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dip"
+        android:singleLine="true"
+        android:textColor="@color/text_color_light" />
+
+    <Button
+        android:id="@+id/btnDealCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_5"
+        android:background="@drawable/deals"
+        android:padding="@dimen/margin_5"
+        android:text="Deals"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/check_normal"
+        android:visibility="gone" />
+
+</LinearLayout>
